@@ -1,7 +1,7 @@
 # Terragrunt will copy the Terraform configurations specified by the source parameter, along with any files in the
 # working directory, into a temporary folder, and execute your Terraform commands in that folder.
 terraform {
-   source = "/Users/ahmad/Documents/copypasta/tf-modules//monitors-slo"
+   source = "git@github.com:ahmad-hussain/terraform-modules.git//dashboards/team-dashboards"
 }
 
 # Include all settings from the root terragrunt.hcl file
